@@ -1,0 +1,26 @@
+{
+    "features": [
+        "MedInc",
+        "HouseAge",
+        "AveRooms"
+    ],
+    "target": "MedHouseVal",
+    "feature_ranges": {
+        "MedInc": {
+            "min": 0.4999,
+            "max": 15.0001
+        },
+        "HouseAge": {
+            "min": 1.0,
+            "max": 52.0
+        },
+        "AveRooms": {
+            "min": 0.8461538461538461,
+            "max": 141.9090909090909
+        }
+    },
+    "target_range": {
+        "min": 0.14999,
+        "max": 5.00001
+    }
+}
